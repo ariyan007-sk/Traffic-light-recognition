@@ -1,0 +1,7 @@
+# Optional Full/Development Dependencies for Local PyTorch & GPU Training
+# (Not recommended for Serverless/Vercel deployment due to 5.8 GB CUDA wheel size)
+
+-r requirements.txt
+ultralytics>=8.3.0
+torch>=2.0.0
+torchvision>=0.15.0

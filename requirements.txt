@@ -1,0 +1,10 @@
+# TRAFFIC AI - Ultra-Lightweight Production Dependencies (<100 MB Bundle)
+# Adheres strictly to the 500 MB serverless/cloud function limits (Vercel, AWS Lambda, Render)
+# Uses ONNX Runtime CPU engine (~35 MB) instead of heavy PyTorch/CUDA wheels (~5,800 MB).
+
+flask>=3.0.0
+opencv-python-headless>=4.8.0
+numpy>=1.24.0
+pillow>=10.0.0
+onnxruntime>=1.18.0
+requests>=2.28.0
